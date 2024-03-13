@@ -109,9 +109,9 @@ return $captcha;
 
 
 
-$hh="634";
+$hh="600";
 xx:
-if($hh=="651"){echo "Complete!!! \n";sleep(99999);}
+if($hh=="617"){echo "Complete!!! \n";sleep(99999);}
 //$url = "https://excentiv.com/offerwall/?userid=43981&key=kMb1m7Rirq8Hpta06GcU";
 $url = "https://excentiv.com/offerwall/?userid=f551ce96cb52&key=5eaQHDSVYcwbdACp6ZB7";
 $of = ofer($url, 'GET');
