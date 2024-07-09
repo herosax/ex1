@@ -2,7 +2,7 @@
 error_reporting(0);
 echo " •HAPPY LOOTING• \n";
 
-$usern = "vomikop88";
+$usern = "gathel88";
 
 function get($url){
 	global $vvv;
@@ -122,7 +122,7 @@ function solveCaptcha() {
         }
         while (true) {
             $url = "http://api.sctg.xyz/res.php?key=$key&action=get&id=$id";
-            $res = get($url);
+            $res = http_get($url);
             if ($res == 'CAPCHA_NOT_READY') {
                 sleep(6);
                 continue;
