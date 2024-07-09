@@ -200,7 +200,7 @@ $vvv = "Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 (KHTML, like Gecko) Chro
 
 $headers = [
        "Host: acryptominer.io",
-     //  "X-Forwarded-For: ".$ipp."",
+       "X-Forwarded-For: ".$ipp."",
         "content-type: application/x-www-form-urlencoded",
         "Connection: keep-alive",      
         "origin: https://acryptominer.io",
